@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title id="titulo">Jogo da Velha</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div class="todo">
+		<div id="titulo">
+			<h1>Jogo da velha</h1>
+		</div>
+		<div id="quadro">
+			<table>
+				<tr>
+					<td onclick="jogar(0)" id="cel0"></td>
+					<td onclick="jogar(1)" id="cel1"></td>
+					<td onclick="jogar(2)" id="cel2"></td>
+				</tr>
+				<tr>
+					<td onclick="jogar(3)" id="cel3"></td>
+					<td onclick="jogar(4)" id="cel4"></td>
+					<td onclick="jogar(5)" id="cel5"></td>
+				</tr>
+				<tr>
+					<td onclick="jogar(6)" id="cel6"></td>
+					<td onclick="jogar(7)" id="cel7"></td>
+					<td onclick="jogar(8)" id="cel8"></td>
+				</tr>
+			</table>
+		</div>
+
+		<dialog id="modal">
+			<div id="conteudo">
+				<p id="menssagem"> </p>
+				<button onclick="modal.close()"> inicio </button>
+			</div>
+		</dialog>
+
+	</div>
+
+</body>
+
+</html>
