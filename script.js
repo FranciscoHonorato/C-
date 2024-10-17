@@ -34,6 +34,7 @@ let menssagem = document.getElementById('menssagem')
 			setTimeout(jogadorAutomatico, 600)
 		}
 	}
+	console.log('---------------------------------------------------')
 }
 
 
@@ -81,6 +82,7 @@ function jogadorAutomatico() {
 	} else if(i > 0 && i < 10) {
 		jogadorAutomatico()
 	}
+console.log(i)
 
 }
 
